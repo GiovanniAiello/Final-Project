@@ -5,8 +5,6 @@ from gym.spaces import Discrete, Box
 import numpy as np
 from itertools import product
 from scipy import optimize
-#from scipy.optimize import fsolve
-#import pickle
 import matplotlib.pyplot as plt
 import pandas as pd
 import warnings

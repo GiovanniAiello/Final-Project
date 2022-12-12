@@ -65,7 +65,7 @@ class Q_Learner():
                 #    actions_dict[self.agents[0]] = self.env.action_spaces[self.agents[0]].sample()
                 #else:
                 #    actions_dict[self.agents[0]] = np.argmax(self.q_table[0][observation])
-                #actions_dict[self.agents[1]] = 12
+                #actions_dict[self.agents[1]] = 12  # = 1 for Nash and 12 for monopolish
 
                 # Step
                 next_observation, reward, done, info = self.env.step(actions_dict)
